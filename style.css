@@ -5,12 +5,62 @@
 }
 
 body {
+  background: url("./img/bg.png") repeat;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
+}
+
+canvas {
+  border: 2px solid #3e4758;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #fff;
+}
+
+.toolbox {
+  background-color: #3e4758;
+  border: 1px solid #3e4758;
+  display: flex;
+  width: 804px;
+  padding: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.toolbox > * {
+  background-color: #fff;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 50px;
+  margin: .25rem;
+  padding: .25rem;
+}
+
+.toolbox > *:last-child {
+  margin-left: auto;
+}
+
+button,
+span,
+input {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(.98);
 }
