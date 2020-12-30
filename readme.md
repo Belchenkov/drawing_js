@@ -2,8 +2,8 @@
 
 > Paint Clone on Vanilla JS
 
-### [Demo]()
-
+### [Demo](http://drawing-js-ab.surge.sh)
+[![IMAGE ALT TEXT HERE](./uploads/screen.png)](https://skr.sh/v5sPM3g1TTU?a)
 ### Get started
 
 ```shell script
